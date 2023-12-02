@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/conf/logback.xml,/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/conf/application.conf,/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/conf/routes,/Users/jorditimmers/Documents/School/3ITSOF/Software Trends/Play_Framework_Demo/playframeworkdemo/target/scala-2.13/classes/routes)[0m

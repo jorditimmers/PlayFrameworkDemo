@@ -8,6 +8,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionStage;
 
 public class CarController extends Controller {
 
@@ -30,8 +32,8 @@ public class CarController extends Controller {
     }
 
     // Get all cars
-    public Result getAllCars() {
-        return ok(play.libs.Json.toJson(cars));
+    public CompletionStage<List<Car>> getAllCars() {
+        return CompletableFuture.supplyAsync(() -> ok(play.libs.Json.toJson(cars)));
     }
 
     // Get a car by ID
